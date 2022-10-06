@@ -46,9 +46,12 @@ li {
     column-count: 3;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .jumbotron-fluid h1 {
-        font-size: 4rem;
+        font-size: 2rem;
     }
+.list-grid ol{
+    column-count: 1;
+}
 }
 
